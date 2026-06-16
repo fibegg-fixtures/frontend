@@ -71,7 +71,7 @@ function App() {
     <main>
       <section className="hero">
         <header>
-          <h1>People Stream</h1>
+          <h1>Employee of the Month</h1>
           <span className={apiState.ok ? "badge" : "badge-destructive"}>{apiState.ok ? "Live" : "Offline"}</span>
         </header>
         <section className="metrics">
